@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<form action="addUser" method="post">
+    用户名：<input type="text" name="uname"/><br/>
+    密码：<input type="password" name="upwd"/><br/>
+    角色：<input type="radio" name="role" value="教师" th:text="教师"/>
+    <input type="radio" name="role" value="学生" th:text="学生"/>
+    <input type="submit"/>
+</form>
+</body>
+</html>
