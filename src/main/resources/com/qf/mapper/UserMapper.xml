@@ -18,4 +18,5 @@
     <select id="getRoleByUname" resultType="string">
         select role from user where uname=#{uname}
     </select>
+
 </mapper>
