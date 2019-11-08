@@ -15,7 +15,7 @@ public interface UserMapper {
 
     public String getRoleByUname(String uname);
     //增加一条新数据
-
+    //1111111
     public String getRoleByUname2(String upwd);
 //你在想屁吃
     // 阿瑟发
