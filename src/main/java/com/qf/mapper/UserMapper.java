@@ -14,4 +14,6 @@ public interface UserMapper {
     public String getUpwdByUname(String uname);
 
     public String getRoleByUname(String uname);
+    //增加一条新数据
+    public String getRoleByUname2(String upwd);
 }
